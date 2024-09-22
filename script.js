@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var endTime = new Date('Oct 15, 2024 10:00:00').getTime();
+    var endTime = new Date('Oct 15, 2024 00:00:00').getTime();
     var setClock = function(){
         var timeinterval = setInterval(function(){
             var now = new Date().getTime();
