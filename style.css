@@ -1,8 +1,22 @@
+    text-align: center;
+    font-size: 2em;
+    z-index: 2;
+}
+
+.clock .text {
+    display: inline-block;
+    min-width: 90px;
+}
+
+.clock.tet .text {
+    color: #d9534f;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     color: #fff;
-    background: url('https://hust.edu.vn/uploads/sys/news/2024_05/hust-c1-b.jpg') no-repeat center center fixed;
+    background: url('https://b.anhmoecdn.icu/q544ST.jpeg-webp') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -18,27 +32,3 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.clock {
-    position: relative;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-    font-size: 2em;
-    z-index: 2;
-}
-
-.clock .text {
-    display: inline-block;
-    min-width: 90px;
-}
-
-.clock.tet .text {
-    color: #d9534f;
-}
